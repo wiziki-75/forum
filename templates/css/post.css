@@ -1,0 +1,66 @@
+      /* Style pour le formulaire */
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      /* Style pour les labels */
+      label {
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      /* Style pour les champs de saisie */
+      input[type=text], textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      /* Style pour le bouton de soumission */
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      /* Style pour le bouton de soumission au survol */
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+            /* Style pour les postes */
+            li {
+              margin-bottom: 20px;
+              padding: 20px;
+              background-color: #f5f5f5;
+              border-radius: 5px;
+            }
+      
+            /* Style pour le titre du poste */
+            h2 {
+              margin-top: 0;
+              margin-bottom: 10px;
+              font-size: 24px;
+              font-weight: bold;
+            }
+      
+            /* Style pour le contenu du poste */
+            p {
+              margin-top: 0;
+              margin-bottom: 0;
+              font-size: 16px;
+              line-height: 1.5;
+            }
+            

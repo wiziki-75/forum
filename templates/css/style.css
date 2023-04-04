@@ -1,0 +1,84 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+
+.like-button {
+    display: inline-block;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .like-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .like-button:disabled {
+    color: white;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+    cursor: not-allowed;
+  }
+
+  .like-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-count {
+    margin-left: 8px;
+    font-size: 14px;
+    color: grey;
+  }
+  
