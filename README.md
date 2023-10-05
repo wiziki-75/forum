@@ -1,3 +1,3 @@
 # forum
 
-Forum basique développer en PHP.
+Forum basique développé en PHP.
