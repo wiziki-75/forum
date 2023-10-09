@@ -1,3 +1,4 @@
+```
 import mysql.connector
 
 # Informations de connexion
@@ -24,3 +25,4 @@ for database in databases:
     finally:
         cursor.close()
         connection.close()
+```
